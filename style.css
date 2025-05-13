@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:rgb(8, 15, 42);
+    color: white;
+    font-family: sans-serif;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+#inp{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   margin-top: 5px;
+   gap: 5px;
+}
+#search{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px auto;
+    padding: 10px;
+    border: 5px solid black;
+    border-radius: 5px;
+    gap: 5px;
+}
+input{
+    width: 400px;
+    margin: 0px auto;
+    font-size: 22px;
+
+}
+button{
+    width: 120px;
+    margin: 5px auto;
+    font-size: 22px;
+    padding : 10px;
+    background-color: white;
+    border: 5px solid black;
+    border-radius: 5px;
+}
+button:hover{
+  
+    cursor: pointer;
+    background-color:gray;
+    color: white;
+    cursor: pointer;
+}
+img{
+    width: 200px;
+    height: 250px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px black;
+    transition: 0.3s;
+    
+}
+
+#list{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content:space-around;
+    gap: 10px;
+}
+
+figure{
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: rgb(122, 144, 228);
+    box-shadow: 0px 0px 10px black;
+    transition: 0.3s;
+    display: flex;
+    justify-content: center; 
+    align-items: center;    
+    gap: 20px;              
+    flex-direction: column; 
+}
+
+figure:hover{
+    transform: scale(0.90);
+    box-shadow: 0px 0px 20px white;
+    transition: 0.3s;
+
+}
+h2{
+    text-align: center;
+    font-size: 22px;
+    font-family: monospace;
+}
