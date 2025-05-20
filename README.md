@@ -4,6 +4,8 @@
 A responsive web application that allows users to search for TV shows and movies using the TVmaze API. The app is built using **HTML**, **CSS**, and **JavaScript**, and uses **Axios** (or Fetch) to retrieve movie data dynamically.
 
 ---
+## Demo
+Click here -- > https://my-movie-app-phi-woad.vercel.app/
 
 ## 🔍 Features
 
